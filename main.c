@@ -1,7 +1,6 @@
 #include <stdio.h> 
 #include <math.h>
 #include <time.h>
-#include <math.h> 
 
 //*********************************************************
 
@@ -401,8 +400,6 @@ void questaoN(){
     printf("\nn) Efetuar a leitura de tres valores inteiros desconhecidos representados pelas variaveis A,B e C. Somar os valores" 
     " fornecidos e apresentar o resultado somente se for maior ou igual a 100\n");
 
-
-
     A = lerInteiro("\nDigite um numero para A,B e C\nA: ");
     B = lerInteiro("B: ");
     C = lerInteiro("C: ");
@@ -491,52 +488,21 @@ void page(){
         }
 
         switch (escolha) {
-            case 'a':
-                questaoA();
-                break;
-            case 'b': 
-                questaoB();
-                break;
-            case 'c': 
-                questaoC();
-                break;
-            case 'd':
-                questaoD();
-                break;
-            case 'e': 
-                questaoE();
-                break; 
-            case 'f': 
-                questaoF();
-                break;
-            case 'g': 
-                questaoG(); 
-                break;
-            case 'h': 
-                questaoH();
-                break;
-            case 'i': 
-                questaoI(); 
-                break;
-            case 'j': 
-                questaoJ();
-                break;
-            case 'k': 
-                questaoK();
-                break;
-            case 'l': 
-                questaoL();
-                break;
-            case 'm': 
-                questaoM();
-                break;
-            case 'n': 
-                questaoN();
-        
-                break;
-            case 'o': 
-                questaoO();
-                break;
+            case 'a':questaoA();break;
+            case 'b':questaoB();break;
+            case 'c':questaoC();break;
+            case 'd':questaoD();break;
+            case 'e':questaoE();break; 
+            case 'f':questaoF();break;
+            case 'g':questaoG();break;
+            case 'h':questaoH();break;
+            case 'i':questaoI();break;
+            case 'j':questaoJ();break;
+            case 'k':questaoK();break;
+            case 'l':questaoL();break;
+            case 'm':questaoM();break;
+            case 'n':questaoN();break;
+            case 'o':questaoO();break;
             default:
                 printf("\nLetra invalida, por favor insira uma correta de (a) a (o): ");
                 break;
